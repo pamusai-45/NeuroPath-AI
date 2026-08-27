@@ -1,0 +1,19 @@
+# OASIS data - never push dataset to GitHub
+data/raw/
+data/processed/
+
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Trained model files
+model/
+
+# VS Code settings
+.vscode/
