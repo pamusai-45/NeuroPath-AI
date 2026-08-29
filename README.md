@@ -4,17 +4,15 @@
 
 NeuroPath AI is a machine-learning-based clinical decision-support prototype designed to prioritize patients for further Alzheimer's diagnostic evaluation using demographic, cognitive, and MRI-derived features.
 
-### 🚀 Live Application
+###  Live Application
 
-👉 **[Launch NeuroPath AI](https://neuropath-ai.streamlit.app/)**
+ **[Launch NeuroPath AI](https://neuropath-ai.streamlit.app/)**
 
 > ⚠️ **Research Prototype:** NeuroPath AI is intended for research and clinical decision-support demonstration only. It does not provide a medical diagnosis or a clinically validated probability of Alzheimer's disease.
 
 
 
-# NeuroPath AI
 
-AI-driven clinical decision-support system for prioritizing patients in early Alzheimer's diagnostic pathways.
 
 ## Problem Statement
 
