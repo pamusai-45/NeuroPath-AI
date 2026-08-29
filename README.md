@@ -183,20 +183,6 @@ The held-out split contains:
 
 ---
 
-## ⚙️ Preprocessing Pipeline
-
-Preprocessing is performed using Scikit-learn `Pipeline` and `ColumnTransformer`.
-
-The pipeline includes:
-
-- Median imputation for missing numerical values
-- Standard scaling of numerical features
-- One-hot encoding of categorical features
-- Integrated preprocessing and model inference
-
-Keeping preprocessing inside the pipeline helps reduce data leakage and ensures the same transformations are applied during training and inference.
-
----
 
 ##  Models Compared
 
