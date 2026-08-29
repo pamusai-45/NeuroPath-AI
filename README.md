@@ -269,36 +269,6 @@ Prioritize for prompt clinical assessment
 
 ---
 
-# 💻 Streamlit Clinical Decision-Support Dashboard
-
-NeuroPath AI includes an interactive Streamlit interface where users can enter:
-
-```text
-Age
-Sex
-Education
-SES
-MMSE
-eTIV
-nWBV
-```
-
-The application then performs:
-
-```text
-Patient Input
-      ↓
-Saved Scikit-learn Pipeline
-      ↓
-Probability
-      ↓
-Risk / Prioritization Score
-      ↓
-Priority Classification
-      ↓
-Decision-Support Recommendation
-```
-
 
 # 🔮 Future Development
 
