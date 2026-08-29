@@ -13,7 +13,9 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Trained model files
-model/
+model/*
+!model/neuropath_v2_model.joblib
+!model/neuropath_v2_metadata.json
 
 # VS Code settings
 .vscode/

@@ -1,0 +1,42 @@
+{
+  "project": "NeuroPath AI V2 - Current Risk/Priority Classification",
+  "features": [
+    "Age",
+    "EDUC",
+    "SES",
+    "MMSE",
+    "eTIV",
+    "nWBV",
+    "M/F"
+  ],
+  "numeric_features": [
+    "Age",
+    "EDUC",
+    "SES",
+    "MMSE",
+    "eTIV",
+    "nWBV"
+  ],
+  "categorical_features": [
+    "M/F"
+  ],
+  "selected_model": "LogisticRegression",
+  "calibrated": true,
+  "priority_thresholds": {
+    "low_medium": 0.2,
+    "medium_high": 0.4
+  },
+  "random_state": 42,
+  "sklearn_version": "1.8.0",
+  "test_metrics": {
+    "accuracy": 0.8133,
+    "precision": 0.9545,
+    "recall_sensitivity": 0.6176,
+    "specificity": 0.9756,
+    "f1": 0.75,
+    "roc_auc": 0.8709,
+    "pr_auc": 0.8879,
+    "brier": 0.1472
+  },
+  "note": "Prototype research thresholds - not clinically validated. Not a diagnostic system."
+}
